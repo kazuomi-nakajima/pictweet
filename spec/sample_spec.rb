@@ -3,7 +3,8 @@ RSpec.describe '簡単なテストコード' do
     it "1 + 1は2である" do
     end
     describe '文字列の結合' do
-      it "「カレー」と「ライス」を繋げるとカレーライスになること"
+      it "「カレー」と「ライス」を繋げるとカレーライスになること" do
+      end
     end
   end
 end
