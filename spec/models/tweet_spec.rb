@@ -25,7 +25,6 @@ RSpec.describe Tweet, type: :model do
         @tweet.user = nil
         @tweet.valid?
         expect(@tweet.errors.full_messages).to include("User must exist")
-        # binding.pry
       end
     end
   end
