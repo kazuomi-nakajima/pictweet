@@ -6,5 +6,5 @@ class User < ApplicationRecord
   has_many :tweets
   has_many :comments  # commentsテーブルとのアソシエーション
 
-  validatable :nickname, presence: true
+  validates :nickname, presence: true, length: {maximum: 6}
 end
